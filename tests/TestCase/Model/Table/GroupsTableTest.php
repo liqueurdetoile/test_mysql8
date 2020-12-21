@@ -56,8 +56,6 @@ class GroupsTableTest extends TestCase
         $group = $this->Groups->newEntity();
         $group = $this->Groups->saveOrFail($group);
 
-        debug(json_encode($group, JSON_PRETTY_PRINT));
-
         $this->assertNotEmpty($group->id);
     }
 }
