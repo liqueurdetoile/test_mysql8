@@ -40,15 +40,7 @@ class UsersFixture extends TestFixture
      */
     public function init()
     {
-        $this->records = [
-            [
-                'id' => '579fea0e-f3c6-4c8b-8c5b-7a6833d4c301',
-                'group_id' => '550f9501-74d8-44b9-a1f6-f4c300cce3a3',
-                'roles_count' => 1,
-                'created' => '2020-12-21 11:06:19',
-                'modified' => '2020-12-21 11:06:19',
-            ],
-        ];
+        $this->records = [];
         parent::init();
     }
 }

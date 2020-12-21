@@ -35,14 +35,7 @@ class GroupsFixture extends TestFixture
      */
     public function init()
     {
-        $this->records = [
-            [
-                'id' => '6ea3a70e-5e78-4c66-938f-4ba062e0cc18',
-                'users_count' => 1,
-                'created' => '2020-12-21 11:06:18',
-                'modified' => '2020-12-21 11:06:18',
-            ],
-        ];
+        $this->records = [];
         parent::init();
     }
 }

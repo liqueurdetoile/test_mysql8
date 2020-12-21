@@ -42,15 +42,7 @@ class AffiliationsFixture extends TestFixture
      */
     public function init()
     {
-        $this->records = [
-            [
-                'id' => '6ddd63e3-a9ed-4d84-a308-3df4eee78ff8',
-                'user_id' => '1c098ec4-5da6-47c5-9aad-6bf33513c502',
-                'role_id' => 'ff09db7d-96c4-4b2b-abe1-5e434836ed83',
-                'created' => '2020-12-21 11:06:18',
-                'modified' => '2020-12-21 11:06:18',
-            ],
-        ];
+        $this->records = [];
         parent::init();
     }
 }

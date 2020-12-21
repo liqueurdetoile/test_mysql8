@@ -35,14 +35,7 @@ class RolesFixture extends TestFixture
      */
     public function init()
     {
-        $this->records = [
-            [
-                'id' => '3d9b27cb-0be6-41f0-9c13-b63561638d5e',
-                'users_count' => 1,
-                'created' => '2020-12-21 11:06:19',
-                'modified' => '2020-12-21 11:06:19',
-            ],
-        ];
+        $this->records = [];
         parent::init();
     }
 }
