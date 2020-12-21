@@ -53,7 +53,10 @@ class GroupsTableTest extends TestCase
 
     public function testAddGroup()
     {
-        $group = $this->Groups->newEntity();
+        $group = $this->Groups->newEntity([
+          'created' => '1608550867',
+          'modified' => '1608550867'
+        ]);
         $group = $this->Groups->saveOrFail($group);
 
         $this->assertNotEmpty($group->id);
